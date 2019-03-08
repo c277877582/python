@@ -6,7 +6,7 @@ def getUrl(url):
     return requests.get(url)
 
 def getObject():
-    pass
+    return getUrl("http://www.baidu.com")
 
 def main():
     print "This is alice!"
